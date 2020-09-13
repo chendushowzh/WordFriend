@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>vocabulary</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>VocaTest</display-name>
+    <servlet-name>VocaTest</servlet-name>
+    <servlet-class>wordFriend.VocaTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VocaTest</servlet-name>
+    <url-pattern>/VocaTest</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SelectWord</display-name>
+    <servlet-name>SelectWord</servlet-name>
+    <servlet-class>wordFriend.SelectWord</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectWord</servlet-name>
+    <url-pattern>/SelectWord</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateWord</display-name>
+    <servlet-name>UpdateWord</servlet-name>
+    <servlet-class>wordFriend.UpdateWord</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateWord</servlet-name>
+    <url-pattern>/UpdateWord</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>History</display-name>
+    <servlet-name>History</servlet-name>
+    <servlet-class>wordFriend.History</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>History</servlet-name>
+    <url-pattern>/History</url-pattern>
+  </servlet-mapping>
+
+</web-app>
